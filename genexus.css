@@ -1,0 +1,142 @@
+.titulosRosa {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.25pt;
+	padding-left: 3.75pt;
+	padding-top: 1.5pt;
+	padding-right: 3.75pt;
+	padding-bottom: 1.5pt;
+	color: #76252A;
+}
+
+.titulosRosaBgc {	/* = .titulosRosa + background-color */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.25pt;
+	padding-left: 3.75pt;
+	padding-top: 1.5pt;
+	padding-right: 3.75pt;
+	padding-bottom: 1.5pt;
+	background-color: #CDAAAD;
+	color: #76252A;
+}
+
+.textoGrande {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	padding-left: 3.75pt;
+	padding-top: 3.75pt;
+	padding-right: 3.75pt;
+	padding-bottom: 3.75pt;
+	color: black;
+}
+.textoGrandeAzul {	/* .textGrande + font-weight + text-decoration + color */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: underline;
+	padding-left: 3.75pt;
+	padding-top: 3.75pt;
+	padding-right: 3.75pt;
+	padding-bottom: 3.75pt;
+	color: #2B5E99;
+}
+.textoError {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.25pt;
+	background-color: #FDFCF7;
+	color: #D20202;
+}
+.textoMsg {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.25pt;
+	background-color: #FDFCF7;
+	color: #3F0000;
+}
+.textoWarn {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.25pt;
+	background-color: #FDFCF7;
+	color: #3F0000;
+}
+
+.titulosTabla {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.25pt;
+	font-weight: bold;
+	background-color: #D6D6D6;
+	border-bottom: 1pt solid #5A5A5A;
+	height: 13.5pt;
+	padding-left: 3.75pt;
+	padding-right: 3.75pt;
+	color: #6C6C6C;
+}
+.titulosTablaSubMain {	/* = .titulosTable + color */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.25pt;
+	font-weight: bold;
+	background-color: #D6D6D6;
+	border-bottom: 1pt solid #5A5A5A;
+	height: 13.5pt;
+	padding-left: 3.75pt;
+	padding-right: 3.75pt;
+	color: #2A384D;
+}
+.subTitulosTabla {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.25pt;
+	font-weight: bold;
+	background-color: #F1F1F1;
+	border-bottom: 1pt solid #CCCCCC;
+	height: 13.75pt;
+	padding-left: 3.75pt;
+	padding-right: 3.75pt;
+	color: black;
+}
+.subTitulosTabla td { /* set this for the case .subTitulosTabla is used for a tr. */
+	border-bottom: 1pt solid #CCCCCC;
+}
+.textoGrisTabla {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.25pt;
+	padding-left: 3.75pt;
+	color: #5E5E5E;
+}
+tr.textoGrisTabla table {	/* = .textoGrisTabla */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.25pt;
+	padding-left: 3.75pt;
+	color: #5E5E5E;
+}
+
+.gxobjnotexist {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.25pt;
+	color: red;
+}
+.gxobj {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8.25pt;
+	text-decoration: underline;
+	color: #2B5E99;
+	cursor: hand;
+}
+.gxcontent {
+	border-left: medium thin white;
+	border-top: medium thin white;
+	border-right: 1px solid silver;
+	border-bottom: 1px solid silver;
+}
+.gxsource {
+	background-color: transparent;
+	color: darkblue;
+}
+.gxevent {
+	color: darkblue;
+}
+.gxlink {
+	text-decoration: underline;
+	cursor: hand;
+}
+.smallImage {
+	width:16px;
+	height:16px;
+}
